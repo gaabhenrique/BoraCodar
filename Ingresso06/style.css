@@ -1,0 +1,152 @@
+:root {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background: linear-gradient(167.96deg, #8257e5 0%, #271a45 100%);
+  height: 100vh;
+  width: 100vw;
+  padding: 24px;
+  letter-spacing: -0.02em;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 327px;
+  height: 655px;
+  margin: auto;
+  gap: 20px;
+  text-align: center;
+}
+
+.app > h1 {
+  color: white;
+  font-size: 20px;
+}
+
+.app > p {
+  color: white;
+}
+
+.boardingPass {
+  filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.25));
+}
+
+.boardingPass > div {
+  background-color: white;
+  border-radius: 24px;
+  padding: 32px 24px;
+}
+
+.flightInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.flightInfoHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flightInfoPrice {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flightInfoData {
+  display: flex;
+}
+
+.flightInfoDate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.departure {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.arrival {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.passangerInfo {
+  display: flex;
+  flex-direction: row;
+  gap: 81px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.32);
+  border-top: 1px dashed rgba(0, 0, 0, 0.32);
+}
+
+.littleTextOpacity {
+  color: #000000a3;
+  font-size: 14px;
+}
+
+.passangerInfoName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.passangerInfoSeat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.boardingTime {
+  background-color: #633bbc;
+  border-radius: 8px;
+  color: white;
+  padding: 4px 8px;
+}
+
+.boardingInfoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.boardingInfoAndQr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.boardingInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.qrCodeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.informationsBoarding {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+strong {
+  font-weight: 600;
+}

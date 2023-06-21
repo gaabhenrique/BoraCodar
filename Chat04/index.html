@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <div class="headerContainer">
+        <div id="userInfo">
+          <img
+            src="https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=75"
+            alt="Imagem do usuario"
+          />
+          <div id="userStatus">
+            <strong>Cecilia Sassaki</strong>
+            <div id="status">Online</div>
+          </div>
+        </div>
+        <div id="closeChat">
+          <i class="ph-x"></i>
+        </div>
+      </div>
+      <div class="chatContainer">
+        <div class="dateContainer">Hoje</div>
+        <div class="messagesContainer">
+          <div class="messageContainer">
+            <div class="timeMessage contact">Cecilia - 11:23</div>
+            <div class="message contact">Salve pia, ta ai?</div>
+          </div>
+          <div class="messageContainer you">
+            <div class="timeMessage you">Você - 11:25</div>
+            <div class="message you">Salve so, to sim</div>
+          </div>
+          <div class="messageContainer">
+            <div class="timeMessage contact">Cecilia - 11:27</div>
+            <div class="message contact">Brota na base ent fiote</div>
+          </div>
+          <div class="messageContainer">
+            <div class="timeMessage contact">Cecilia - 11:23</div>
+            <div class="message contact">Salve pia, ta ai?</div>
+          </div>
+          <div class="messageContainer you">
+            <div class="timeMessage you">Você - 11:25</div>
+            <div class="message you">Salve so, to sim</div>
+          </div>
+          <div class="messageContainer">
+            <div class="timeMessage contact">Cecilia - 11:27</div>
+            <div class="message contact">Brota na base ent fiote</div>
+          </div>
+          <div class="messageContainer">
+            <div class="timeMessage contact">Cecilia - 11:27</div>
+            <div class="message contact">Brota na base ent fiote</div>
+          </div>
+          <div class="messageContainer">
+            <div class="timeMessage contact">Cecilia - 11:27</div>
+            <div class="message contact">Brota na base ent fiote</div>
+          </div>
+        </div>
+      </div>
+      <div class="inputContainer">
+        <input placeholder="Digite sua menssagem" />
+        <button>
+          <i class="ph-paper-plane-right"></i>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
